@@ -19,7 +19,6 @@ class GoogleChatAlert
 
         $jobArguments = [
             'text' => $text,
-            'type' => 'mrkdown',
             'webhookUrl' => $webhookUrl,
         ];
 
