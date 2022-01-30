@@ -121,7 +121,7 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 ## Security Vulnerabilities
 
-Please report to warnerdata@gmail.com or via Twitter [@DigiGuyDev](https://twitter.com/DigiGuyDev)
+Please report to warnerdata@gmail.com or via Twitter DM [@DigiGuyDev](https://twitter.com/DigiGuyDev)
 
 ## Credits
 
