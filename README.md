@@ -3,6 +3,9 @@
 
 This package can quickly send alerts to Google Chat. You can use this to notify yourself of any noteworthy events happening in your app.
 
+A hard fork of [Laravel Slack Alerts by Spatie](https://github.com/spatie/laravel-slack-alerts)
+
+
 ```php
 use GuyWarner\GoogleChatAlerts\Facades\GoogleChatAlert;
 
@@ -11,7 +14,7 @@ GoogleChatAlert::message("You have a new subscriber to the {$newsletter->name} n
 
 Under the hood, a job is used to communicate with Google Chat. This prevents your app from failing in case Google Chat is down.
 
-Want to send alerts to Discord instead? Check out [laravel-discord-alerts](https://github.com/spatie/laravel-discord-alerts).
+Want to send alerts to Slack instead? Check out [laravel-slack-alerts](https://github.com/spatie/laravel-slack-alerts).
 
 Want to send alerts to GoogleChat instead? Check out [laravel-discord-alerts](https://github.com/spatie/laravel-google-chat-alerts).
 
