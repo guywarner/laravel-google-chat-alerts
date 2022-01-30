@@ -69,8 +69,8 @@ You can also use an alternative webhook, by specify extra ones in the config fil
 // in config/google-chat-alerts.php
 
 'webhook_urls' => [
-    'default' => 'https://hooks.Google Chat.com/services/XXXXXX',
-    'marketing' => 'https://hooks.Google Chat.com/services/YYYYYY',
+    'default' => 'https://chat.googleapis.com/v1/spaces/XXXX',
+    'sales' => 'https://chat.googleapis.com/v1/spaces/YYYYYY',
 ],
 ```
 
@@ -79,13 +79,13 @@ The webhook to be used can be chosen using the `to` function.
 ```php
 use GuyWarner\GoogleChatAlerts\Facades\GoogleChatAlert;
 
-GoogleChatAlert::to('marketing')->message("You have a new subscriber to the {$newsletter->name} newsletter!");
+GoogleChatAlert::to('sales')->message("You have a new subscriber to the {$newsletter->name} newsletter!");
 ```
 
 ## Formatting
 
 ### Markdown
-You can format your messages with markup. Learn how [in the Google Chat API docs](https://Google Chat.com/help/articles/202288908-Format-your-messages).
+You can format your messages with markup. Learn how [in the Google Chat API docs](https://developers.google.com/chat/api/guides/message-formats/basic#using_formatted_text_in_messages).
 
 ```php
 use GuyWarner\GoogleChatAlerts\Facades\GoogleChatAlert;
@@ -93,13 +93,13 @@ use GuyWarner\GoogleChatAlerts\Facades\GoogleChatAlert;
 GoogleChatAlert::message("A message *with some bold statements* and _some italicized text_.");
 ```
 
-### Emoji's
+### Messages that @mention all users
 
 You can use the same emoji codes as in Google Chat. This means custom emoji's are also supported.
 ```php
 use GuyWarner\GoogleChatAlerts\Facades\GoogleChatAlert;
 
-GoogleChatAlert::message(":smile: :custom-code:");
+GoogleChatAlert::message("New support ticket. <users/all>");
 ```
 
 ## Testing
@@ -118,13 +118,12 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 ## Security Vulnerabilities
 
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
+Please report to warnerdata@gmail.com or via Twitter [@DigiGuyDev](https://twitter.com/DigiGuyDev)
 
 ## Credits
 
 - [Niels Vanpachtenbeke](https://github.com/Nielsvanpach)
 - [Freek Van der Herten](https://github.com/freekmurze)
-- [All Contributors](../../contributors)
 
 ## License
 
