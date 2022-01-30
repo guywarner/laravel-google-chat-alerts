@@ -3,6 +3,7 @@
     "description": "Send a message to GoogleChat",
     "keywords": [
         "laravel",
+        "google-chat-bot",
         "laravel-google-chat-alerts"
     ],
     "homepage": "https://github.com/guywarner/laravel-google-chat-alerts",
@@ -16,6 +17,11 @@
         {
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Guy Warner",
+            "email": "warnerdata@gmail.com",
             "role": "Developer"
         }
     ],
