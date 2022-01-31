@@ -127,6 +127,7 @@ Please report to warnerdata@gmail.com or via Twitter DM [@DigiGuyDev](https://tw
 
 - [Niels Vanpachtenbeke](https://github.com/Nielsvanpach)
 - [Freek Van der Herten](https://github.com/freekmurze)
+- [Guy Warner](https://github.com/guywarner/)
 
 ## License
 
