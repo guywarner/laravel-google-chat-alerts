@@ -16,7 +16,7 @@ Under the hood, a job is used to communicate with Google Chat. This prevents you
 
 Want to send alerts to Slack instead? Check out [laravel-slack-alerts](https://github.com/spatie/laravel-slack-alerts).
 
-Want to send alerts to GoogleChat instead? Check out [laravel-discord-alerts](https://github.com/spatie/laravel-google-chat-alerts).
+Want to send alerts to Discord instead? Check out [laravel-discord-alerts](https://github.com/spatie/laravel-google-chat-alerts).
 
 
 ## Installation
@@ -27,7 +27,7 @@ You can install the package via composer:
 composer require guywarner/laravel-google-chat-alerts
 ```
 
-You can set a `GOOGLE_CHAT_ALERT_WEBHOOK` env variable containing a valid Google Chat webhook URL. You can learn how to get a webhook URL [in the Google Chat API docs](https://api.Google Chat.com/messaging/webhooks).
+You can set a `GOOGLE_CHAT_ALERT_WEBHOOK` env variable containing a valid Google Chat webhook URL. You can learn how to get a webhook URL [in the Google Chat API docs](https://api.GoogleChat.com/messaging/webhooks).
 
 
 Alternatively, you can publish the config file with:
