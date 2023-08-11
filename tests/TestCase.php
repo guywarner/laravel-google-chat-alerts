@@ -2,8 +2,8 @@
 
 namespace GuyWarner\GoogleChatAlerts\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use GuyWarner\GoogleChatAlerts\GoogleChatAlertsServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

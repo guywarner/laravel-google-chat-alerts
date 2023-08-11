@@ -1,10 +1,10 @@
 <?php
 
-use Illuminate\Support\Facades\Bus;
 use GuyWarner\GoogleChatAlerts\Exceptions\JobClassDoesNotExist;
 use GuyWarner\GoogleChatAlerts\Exceptions\WebhookUrlNotValid;
 use GuyWarner\GoogleChatAlerts\Facades\GoogleChatAlert;
 use GuyWarner\GoogleChatAlerts\Jobs\SendToGoogleChatChannelJob;
+use Illuminate\Support\Facades\Bus;
 
 beforeEach(function () {
     Bus::fake();
